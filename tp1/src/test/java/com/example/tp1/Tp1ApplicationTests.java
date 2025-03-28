@@ -8,6 +8,8 @@ class Tp1ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		Car car = new Car("AA11BB", "Toyota", 200);
+		assertEquals(car.getPlateNumber(), "AA11BB");
 	}
 
 }
